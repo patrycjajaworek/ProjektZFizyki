@@ -15,7 +15,7 @@ time=70*365*24*3600*0.5 #s okres  dla 0.3,fajne wychodziło
 #stała grawitacyjna
 G = 6.67408e-11 # N*m2/kg2
 
-#masy naszych kulek/planet
+#masy naszych kulek/planetvyy
 m1=1.0
 m2=1.5  #1.9  gdy każda masa inna plus mozna dac te same wtedy inny efekt
 m3=2.0
