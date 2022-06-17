@@ -10,7 +10,7 @@ plt.style.use('Solarize_Light2')  # kolor tła
 mass=1.989e+30 #kg masa słonca
 velocity=30000 #m/s 30km/s predkosc ziemii wokol slonca
 radius= 5.326e+12 #m  5.326e+12 4.645e+12 tutaj zmieniamy dla animacji
-time=70*365*24*3600*0.5 #s okres  dla 0.3,fajne wychodziło
+time=75*365*24*3600*0.5 #s okres  dla 0.3,fajne wychodziło
 
 #stała grawitacyjna
 G = 6.67408e-11 # N*m2/kg2
@@ -89,9 +89,7 @@ ax.set_zlabel("z",fontsize=18)
 # Animacja
 fig = plt.figure(figsize=(10, 10))
 ax = fig.add_subplot(111, projection="3d")
-#r1_sol_anim = r1Solve[::4, :]   # nowa lista oddzielnie dla animacji bo inaczej działa wolno
-#r2_sol_anim = r2Solve[::4, :]
-#r3_sol_anim = r3Solve[::4, :]
+
 # Ustawienia  kolory,grubosci i dodanie r
 firstM = [ax.scatter(r1Solve[0, 0], r1Solve[0, 1], r1Solve[0, 2], color="blue", marker="o", s=50)]
 secondM = [ax.scatter(r2Solve[0, 0], r2Solve[0, 1], r2Solve[0, 2], color="black", marker="o", s=100)]
